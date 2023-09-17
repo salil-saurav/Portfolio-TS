@@ -1,0 +1,44 @@
+.navbar-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.Logo path {
+  fill: #b42121;
+}
+.Logo {
+  width: 45px;
+  border-radius: 50%;
+}
+.logo-name {
+  font-size: 22px;
+  /* color: #fff; */
+}
+
+.nav-items ul {
+  display: flex;
+}
+
+.nav-items ul li {
+  list-style: none;
+  margin: 0 1rem;
+}
+.nav-items ul li a {
+  color: #e2e8f0;
+  font-size: large;
+}
+
+.nav-items .css-i4bv87-MuiSvgIcon-root {
+  font-size: 36px;
+}
+
+.nav-logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo-container img {
+  margin-right: 1rem;
+}

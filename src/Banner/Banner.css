@@ -1,0 +1,58 @@
+/* .banner {
+  background: linear-gradient(
+      351deg,
+      rgb(255 255 255 / 70%),
+      rgba(255, 31, 49, 0) 98.71%
+    ),
+    linear-gradient(295deg, rgb(255 255 255 / 97%), rgba(67, 224, 19, 0) 48.71%),
+    linear-gradient(143deg, rgb(14 1 8 / 81%), rgb(255 255 255 / 0%) 91.71%);
+  height: 400px;
+} */
+
+.banner-body {
+  display: grid;
+  place-items: center;
+  align-items: center;
+}
+
+.banner-body h1 {
+  margin-bottom: 0;
+}
+.banner-body h2 {
+  margin-top: 0;
+}
+.banner-body p {
+  padding: 0 10rem;
+  text-align: center;
+}
+
+.skill-sets {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill {
+  border-radius: 20px;
+  margin: 1rem;
+  background-color: #176b87;
+  /* opacity: 0.7; */
+  width: fit-content;
+}
+
+.skill a {
+  text-decoration: none;
+  display: flex;
+  color: #fff;
+  padding: 7px 14px;
+}
+.skill img {
+  width: 20px;
+  margin-right: 5px;
+}
+
+.skills-sets-row2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
