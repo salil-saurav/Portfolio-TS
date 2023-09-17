@@ -1,5 +1,6 @@
 import "./Cards.css";
 import Tilt from "react-parallax-tilt";
+import NPMLogo from "../assets/Logo/npm.svg";
 
 const Cards = () => {
   return (
@@ -7,11 +8,12 @@ const Cards = () => {
       <div className="card-group-one">
         <Tilt tiltEnable={true}>
           <div className="card">
-            <h1>Card1</h1>
+            <h1>Projects</h1>
+            <img className="npmlogo" src={NPMLogo} alt="" />
           </div>
         </Tilt>
         <Tilt tiltEnable={true}>
-          <div className="card">card 2</div>
+          <div className="card"></div>
         </Tilt>
       </div>
       <div className="card-group-two">

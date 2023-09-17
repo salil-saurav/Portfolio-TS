@@ -1,14 +1,6 @@
-/* .banner {
-  background: linear-gradient(
-      351deg,
-      rgb(255 255 255 / 70%),
-      rgba(255, 31, 49, 0) 98.71%
-    ),
-    linear-gradient(295deg, rgb(255 255 255 / 97%), rgba(67, 224, 19, 0) 48.71%),
-    linear-gradient(143deg, rgb(14 1 8 / 81%), rgb(255 255 255 / 0%) 91.71%);
-  height: 400px;
-} */
-
+.banner {
+  padding-top: 3rem;
+}
 .banner-body {
   display: grid;
   place-items: center;
@@ -17,9 +9,12 @@
 
 .banner-body h1 {
   margin-bottom: 0;
+  font-size: 50px;
 }
 .banner-body h2 {
   margin-top: 0;
+  font-size: 22px;
+  font-weight: 500;
 }
 .banner-body p {
   padding: 0 10rem;
@@ -80,4 +75,10 @@
 }
 .skill:hover .JS {
   filter: invert(100%);
+}
+
+.banner-body .arsenal {
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  font-size: 30px;
 }

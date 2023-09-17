@@ -1,0 +1,28 @@
+/* Define a bounce animation */
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateX(0);
+  }
+  40% {
+    transform: translateX(100px);
+  }
+  60% {
+    transform: translateX(50px);
+  }
+}
+
+.name-animation span {
+  display: inline-block;
+  animation: bounce 5s ease-in-out;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  animation-delay: calc(0.1s * var(--index));
+}
+
+.name-animation h2 {
+  text-align: center;
+}

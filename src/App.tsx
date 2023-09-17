@@ -1,18 +1,20 @@
 import "./App.css";
 import CssBaseline from "@mui/material/CssBaseline";
-import Navbar from "./Navbar/Navbar";
+import Sidebar from "./Navbar/Sidebar";
 import { Container } from "@mui/material";
 import Banner from "./Banner/Banner";
 import Cards from "./Cards/Cards";
+import Footer from "./Footer";
 const App = () => {
   return (
     <>
       <CssBaseline />
-      <Navbar />
+      <Sidebar />
       <Banner />
       <Container>
         <Cards />
       </Container>
+      <Footer />
     </>
   );
 };

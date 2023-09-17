@@ -16,12 +16,10 @@
   height: 233px;
   border-radius: 46px;
   color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  place-content: center;
 }
-.card h1 {
-  transform-style: preserve-3d;
-  display: inline-block;
-  transform-origin: 50% 50%;
+
+.npmlogo {
+  width: 100px;
 }

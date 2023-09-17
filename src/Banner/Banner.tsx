@@ -1,4 +1,6 @@
 import "./Banner.css";
+import "./LetterAnimation.css";
+import { useEffect } from "react";
 import { Container } from "@mui/material";
 import ReactLogo from "../assets/Logo/React.svg";
 import JavaScriptLogo from "../assets/Logo/JS.svg";
@@ -11,19 +13,72 @@ import BootstrapLogo from "../assets/Logo/Bootstrap.svg";
 import TypeScriptLogo from "../assets/Logo/TS.svg";
 
 const Banner = () => {
+  useEffect(() => {
+    // Use JavaScript to trigger the animation only once
+    const spans = document.querySelectorAll(".name-animation span");
+    spans.forEach((span, index) => {
+      (span as HTMLElement).style.animationDelay = `calc(0.1s * ${index})`;
+      (span as HTMLElement).style.opacity = "1"; // Set opacity to '1' to make the spans visible
+    });
+  }, []);
   return (
     <div className="banner">
       <Container>
         <div className="banner-body">
-          <h1>{`Hello I'm Salil Saurav`}</h1>
-          <h2>Full Stack Developer</h2>
+          <div className="name-animation">
+            <h1>
+              <span>H</span>
+              <span>e</span>
+              <span>l</span>
+              <span>l</span>
+              <span>o</span> <span>I</span>
+              <span>'</span>
+              <span>m</span> <span>S</span>
+              <span>a</span>
+              <span>l</span>
+              <span>i</span>
+              <span>l</span> <span>S</span>
+              <span>a</span>
+              <span>u</span>
+              <span>r</span>
+              <span>a</span>
+              <span>v</span>
+            </h1>
+
+            <h2>
+              <span>{"<"}</span>
+              <span>F</span>
+              <span>u</span>
+              <span>l</span>
+              <span>l</span>
+              <span>-</span>
+              <span>s</span>
+              <span>t</span>
+              <span>a</span>
+              <span>c</span>
+              <span>k</span> <span> </span>
+              <span>D</span>
+              <span>e</span>
+              <span>v</span>
+              <span>e</span>
+              <span>l</span>
+              <span>o</span>
+              <span>p</span>
+              <span>e</span>
+              <span>r</span>
+              <span>{"/>"}</span>
+            </h2>
+          </div>
+
           <p>
-            Dedicated Full-Stack Developer specializing in React, TypeScript,
-            Express, and MongoDB, on a mission to transform ideas into
-            functional, user-centric web experiences, while gaining valuable
-            industry insights as a Development Intern at Digital Web Solutions
-            Pvt Ltd.
+            Dedicated Full-Stack Developer specializing in <b>React</b>,
+            <b>TypeScript</b>, <b>Express</b>, and <b>MongoDB</b>, on a mission
+            to transform ideas into functional, user-centric web experiences,
+            while gaining valuable industry insights as a{" "}
+            <b>Development Intern at Digital Web Solutions Pvt Ltd</b>.
           </p>
+
+          <h2 className="arsenal">Web Development Arsenal</h2>
         </div>
 
         <div className="skill-sets">
