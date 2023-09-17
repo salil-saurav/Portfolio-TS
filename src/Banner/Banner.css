@@ -36,8 +36,15 @@
   border-radius: 20px;
   margin: 1rem;
   background-color: #176b87;
-  /* opacity: 0.7; */
   width: fit-content;
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease, background-color 1s ease,
+    box-shadow 0.5s ease;
+}
+.skill:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 6px 4px 0px #176b87;
+  background-color: #000;
 }
 
 .skill a {
@@ -47,12 +54,30 @@
   padding: 7px 14px;
 }
 .skill img {
-  width: 20px;
+  width: 25px;
   margin-right: 5px;
 }
 
 .skills-sets-row2 {
+  margin-top: 0;
   display: flex;
-  align-items: center;
   justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.language-logo {
+  transition: transform 1s ease;
+}
+.TSLogo {
+  filter: brightness(1.5);
+}
+
+.skill:hover .language-logo {
+  transform: rotate(360deg);
+}
+.skill:hover .rest-logo {
+  filter: invert(100%);
+}
+.skill:hover .JS {
+  filter: invert(100%);
 }

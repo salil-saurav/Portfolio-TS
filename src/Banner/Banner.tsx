@@ -8,6 +8,7 @@ import ApiLogo from "../assets/Logo/API.svg";
 import NPMLogo from "../assets/Logo/npm.svg";
 import PhpLogo from "../assets/Logo/php.svg";
 import BootstrapLogo from "../assets/Logo/Bootstrap.svg";
+import TypeScriptLogo from "../assets/Logo/TS.svg";
 
 const Banner = () => {
   return (
@@ -24,54 +25,84 @@ const Banner = () => {
             Pvt Ltd.
           </p>
         </div>
+
         <div className="skill-sets">
           <div className="skill">
-            <a href="">
-              <img src={ReactLogo} alt="React Logo" />
+            <a href="https://react.dev/" target="_blank">
+              <img className="language-logo" src={ReactLogo} alt="React Logo" />
               React
             </a>
           </div>
           <div className="skill">
-            <a href="">
-              <img className="JS-logo" src={JavaScriptLogo} alt="React Logo" />
+            <a href="https://www.typescriptlang.org/" target="_blank">
+              <img
+                className="language-logo TSLogo"
+                src={TypeScriptLogo}
+                alt="TS Logo"
+              />
+              TypeScript
+            </a>
+          </div>
+          <div className="skill">
+            <a href="https://expressjs.com/" target="_blank">
+              <img
+                className="language-logo JS"
+                src={JavaScriptLogo}
+                alt="ExpressJS Logo"
+              />
               Express JS
             </a>
           </div>
           <div className="skill">
-            <a href="">
-              <img className="react-logo" src={MongoDBLogo} alt="React Logo" />
+            <a href="https://www.mongodb.com/" target="_blank">
+              <img
+                className="language-logo"
+                src={MongoDBLogo}
+                alt="MongoDB Logo"
+              />
               Mongo DB
             </a>
           </div>
           <div className="skill">
-            <a href="">
-              <img className="react-logo" src={NodeJSLogo} alt="React Logo" />
+            <a href="https://nodejs.org/en" target="_blank">
+              <img
+                className="language-logo"
+                src={NodeJSLogo}
+                alt="NodeJS Logo"
+              />
               Node JS
             </a>
           </div>
           <div className="skill">
-            <a href="">
-              <img className="react-logo" src={ApiLogo} alt="React Logo" />
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Glossary/REST"
+              target="_blank"
+            >
+              <img
+                className="language-logo rest-logo"
+                src={ApiLogo}
+                alt="Rest API Logo"
+              />
               Rest API
             </a>
           </div>
         </div>
         <div className="skills-sets-row2">
           <div className="skill">
-            <a href="">
+            <a href="https://www.npmjs.com/" target="_blank">
               <img src={NPMLogo} alt="React Logo" />
               NPM
             </a>
           </div>
           <div className="skill">
-            <a href="">
-              <img src={BootstrapLogo} alt="React Logo" />
+            <a href="https://getbootstrap.com/" target="_blank">
+              <img src={BootstrapLogo} alt="Bootstrap Logo" />
               Bootstrap
             </a>
           </div>
           <div className="skill">
-            <a href="">
-              <img src={PhpLogo} alt="React Logo" />
+            <a href="https://www.php.net/" target="_blank">
+              <img src={PhpLogo} alt="PHP Logo" />
               PHP
             </a>
           </div>

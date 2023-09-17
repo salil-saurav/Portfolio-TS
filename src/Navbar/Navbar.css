@@ -14,11 +14,13 @@
 }
 .logo-name {
   font-size: 22px;
-  /* color: #fff; */
+  color: #e2e8f0;
+  text-decoration: none;
 }
 
 .nav-items ul {
   display: flex;
+  position: relative;
 }
 
 .nav-items ul li {
@@ -32,6 +34,24 @@
 
 .nav-items .css-i4bv87-MuiSvgIcon-root {
   font-size: 36px;
+  transition: all 0.5s ease;
+}
+
+.nav-items .css-i4bv87-MuiSvgIcon-root:hover {
+  color: #176b87;
+  transform: scale(1.5);
+}
+.nav-items ul li:hover .linkedin {
+  opacity: 1;
+}
+.nav-items ul li:hover .github {
+  opacity: 1;
+}
+.nav-items ul li:hover .resume {
+  opacity: 1;
+}
+.nav-items ul li:hover .call {
+  opacity: 1;
 }
 
 .nav-logo-container {
@@ -41,4 +61,40 @@
 
 .nav-logo-container img {
   margin-right: 1rem;
+}
+
+.linkedin {
+  opacity: 0;
+  position: absolute;
+  top: 3rem;
+  right: 13rem;
+  font-size: 16px;
+  transition: all 2s ease;
+}
+
+.github {
+  opacity: 0;
+  position: absolute;
+  top: 4rem;
+  right: 9rem;
+  font-size: 16px;
+  transition: all 2s ease;
+}
+
+.resume {
+  opacity: 0;
+  position: absolute;
+  top: 3rem;
+  right: 68px;
+  font-size: 16px;
+  transition: all 2s ease;
+}
+
+.call {
+  opacity: 0;
+  position: absolute;
+  top: 3rem;
+  left: 264px;
+  font-size: 16px;
+  transition: all 2s ease;
 }

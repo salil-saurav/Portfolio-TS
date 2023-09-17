@@ -7,7 +7,6 @@ import Cards from "./Cards/Cards";
 const App = () => {
   return (
     <>
-      {/* <CustomCursor /> */}
       <CssBaseline />
       <Navbar />
       <Banner />

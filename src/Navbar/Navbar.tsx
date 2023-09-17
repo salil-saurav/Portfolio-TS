@@ -12,9 +12,13 @@ const Navbar = () => {
         <div className="navbar-inner">
           <div className="nav-logo-container">
             <span className="logo-img">
-              <img className="Logo" src={Logo} alt="Logo" />
+              <a href="/">
+                <img className="Logo" src={Logo} alt="Logo" />
+              </a>
             </span>
-            <span className="logo-name">Salil Saurav</span>
+            <a className="logo-name" href="/">
+              Salil Saurav
+            </a>
           </div>
           <div className="nav-items">
             <ul>
@@ -22,21 +26,25 @@ const Navbar = () => {
                 <a href="#">
                   <LinkedInIcon />
                 </a>
+                <span className="linkedin">Linkedin</span>
               </li>
               <li>
                 <a href="#">
                   <GitHubIcon />
                 </a>
+                <span className="github">Github</span>
               </li>
               <li>
                 <a href="#">
                   <ArticleIcon />
                 </a>
+                <span className="resume">Resume</span>
               </li>
               <li>
                 <a href="tel:7701990393">
                   <CallIcon />
                 </a>
+                <span className="call">Call</span>
               </li>
             </ul>
           </div>
