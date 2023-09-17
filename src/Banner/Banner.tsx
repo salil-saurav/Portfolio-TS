@@ -128,6 +128,8 @@ const Banner = () => {
               Node JS
             </a>
           </div>
+        </div>
+        <div className="skills-sets-row2">
           <div className="skill">
             <a
               href="https://developer.mozilla.org/en-US/docs/Glossary/REST"
@@ -141,30 +143,26 @@ const Banner = () => {
               Rest API
             </a>
           </div>
-        </div>
-        <div className="skills-sets-row2">
           <div className="skill">
             <a href="https://www.npmjs.com/" target="_blank">
-              <img src={NPMLogo} alt="React Logo" />
+              <img className="language-logo" src={NPMLogo} alt="React Logo" />
               NPM
             </a>
           </div>
           <div className="skill">
             <a href="https://getbootstrap.com/" target="_blank">
-              <img src={BootstrapLogo} alt="Bootstrap Logo" />
+              <img
+                className="language-logo"
+                src={BootstrapLogo}
+                alt="Bootstrap Logo"
+              />
               Bootstrap
             </a>
           </div>
           <div className="skill">
             <a href="https://www.php.net/" target="_blank">
-              <img src={PhpLogo} alt="PHP Logo" />
+              <img className="language-logo" src={PhpLogo} alt="PHP Logo" />
               PHP
-            </a>
-          </div>
-          <div className="skill">
-            <a href="">
-              <img src={ReactLogo} alt="React Logo" />
-              React
             </a>
           </div>
         </div>

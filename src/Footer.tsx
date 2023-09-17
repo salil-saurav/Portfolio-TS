@@ -4,7 +4,10 @@ const Footer = () => {
   return (
     <>
       <footer className="footer">
-        <p>Designed and Developed By Salil Saurav</p>
+        <p>
+          Built with React, MUI and CSS. Coded in VS Code by yours truly and
+          deployed with Netlify.
+        </p>
       </footer>
     </>
   );
