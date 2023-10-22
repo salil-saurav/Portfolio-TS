@@ -6,3 +6,7 @@
 .content-container.show {
   opacity: 1;
 }
+
+* {
+  transition: all 0.6s ease-in-out;
+}

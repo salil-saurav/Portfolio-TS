@@ -2,22 +2,26 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: flex-direction 1s ease-in-out;
 }
 .card-group-two {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+.cardSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .card {
-  background-color: #176b87;
   margin: 2rem;
-  width: 456px;
-  height: 233px;
-  border-radius: 46px;
+  width: 350px;
   color: #fff;
   display: grid;
   place-content: center;
+  position: relative;
 }
 
 .npmlogo {
@@ -25,4 +29,40 @@
 }
 .cardImage {
   width: 100%;
+  border-radius: 20px;
+}
+.card:hover .project-name {
+  opacity: 1;
+}
+.project-name {
+  position: absolute;
+  /* transform: translate3d(50px); */
+  color: #176b87;
+  font-weight: 500;
+  left: 36%;
+  top: 100%;
+  opacity: 0;
+  /* transition: opacity 500ms ease;s */
+}
+
+@media (max-width: 980px) {
+  .card-group-one {
+    flex-direction: column;
+  }
+  .card-group-two {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  .cardImage {
+    width: 240px;
+  }
+  .card {
+    margin: 10px;
+  }
+  .project-name {
+    font-size: 12px;
+    left: 38%;
+  }
 }

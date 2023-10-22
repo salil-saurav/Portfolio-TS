@@ -25,6 +25,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .skill {
@@ -58,10 +59,11 @@
   display: flex;
   justify-content: center;
   margin-bottom: 3rem;
+  flex-wrap: wrap;
 }
 
 .language-logo {
-  transition: transform 1s ease;
+  /* transition: transform 1s ease; */
 }
 .TSLogo {
   filter: brightness(1.5);
@@ -82,4 +84,44 @@
   margin-top: 2rem;
   font-size: 30px;
   font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .banner-body h1 {
+    font-size: 35px;
+  }
+  .banner-body p {
+    padding: 0 5rem;
+    font-size: 13px;
+  }
+  .banner-body .arsenal {
+    font-size: 25px;
+  }
+  .skill-sets {
+    padding: 0 3rem;
+  }
+  .skills-sets-row2 {
+    padding: 0 3rem;
+  }
+}
+@media (max-width: 500px) {
+  .banner-body h1 {
+    font-size: 30px;
+  }
+  .name-animation h2 {
+    font-size: 18px;
+  }
+  .banner-body .arsenal {
+    font-size: 18px;
+  }
+  .skill a {
+    font-size: 12px;
+    align-items: center;
+  }
+  .skill img {
+    width: 20px;
+  }
+  .skills-sets-row2 {
+    margin-bottom: 1rem;
+  }
 }

@@ -1,5 +1,6 @@
 import "./Banner.css";
 import "./LetterAnimation.css";
+import "animate.css";
 import { useEffect } from "react";
 import { Container } from "@mui/material";
 import ReactLogo from "../assets/Logo/React.svg";

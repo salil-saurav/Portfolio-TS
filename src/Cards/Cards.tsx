@@ -7,20 +7,21 @@ import cardFourImage from "../assets/images/livesearch.png";
 
 const Cards = () => {
   return (
-    <>
-      <div className="card-group-one">
-        <Tilt tiltEnable={true}>
-          <div className="card">
-            <div className="cardOne">
+    <section className="cardSection">
+      <h2>What I've Built</h2>
+
+      <div className="cards">
+        <div className="card-group-one">
+          <Tilt tiltEnable={true}>
+            <div className="card">
               <a href="https://campsite-mym1.onrender.com" target="_blank">
                 <img className="cardImage" src={campImage} alt="campImage" />
               </a>
+              <span className="project-name">Camp Site</span>
             </div>
-          </div>
-        </Tilt>
-        <Tilt tiltEnable={true}>
-          <div className="card">
-            <div className="cardTwo">
+          </Tilt>
+          <Tilt tiltEnable={true}>
+            <div className="card">
               <a href="https://rad-strudel-251366.netlify.app" target="_blank">
                 <img
                   className="cardImage"
@@ -28,15 +29,14 @@ const Cards = () => {
                   alt="Card Two Image"
                 />
               </a>
+              <span className="project-name">Perfect Dry</span>
             </div>
-          </div>
-        </Tilt>
-      </div>
-      <div className="card-group-two">
-        <Tilt tiltEnable={true}>
-          <div className="card">
-            {" "}
-            <div className="cardThree">
+          </Tilt>
+        </div>
+        <div className="card-group-two">
+          <Tilt tiltEnable={true}>
+            <div className="card">
+              {" "}
               <a href="https://mellow-dodol-8c8c4d.netlify.app" target="_blank">
                 <img
                   className="cardImage"
@@ -44,25 +44,29 @@ const Cards = () => {
                   alt="Card Three Image"
                 />
               </a>
+              <span className="project-name">The Crew</span>
             </div>
-          </div>
-        </Tilt>
-        <Tilt tiltEnable={true}>
-          <div className="card">
-            {" "}
-            <div className="cardFour">
-              <a href="https://deluxe-froyo-e9d9c8.netlify.app" target="_blank">
+          </Tilt>
+          <Tilt tiltEnable={true}>
+            <div className="card">
+              {" "}
+              <a
+                className="project-link"
+                href="https://deluxe-froyo-e9d9c8.netlify.app"
+                target="_blank"
+              >
                 <img
                   className="cardImage"
                   src={cardFourImage}
                   alt="Card Four Image"
                 />
               </a>
+              <span className="project-name">Live Search</span>
             </div>
-          </div>
-        </Tilt>
+          </Tilt>
+        </div>
       </div>
-    </>
+    </section>
   );
 };
 
