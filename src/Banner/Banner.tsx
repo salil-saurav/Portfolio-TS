@@ -33,10 +33,9 @@ const Banner = () => {
                             Junior Developer
                         </h2>
                     </div>
-
                     <p>
-                        Dedicated Full-Stack Developer specializing in <b>React</b>,
-                        <b>TypeScript</b>, <b>Express</b>, and <b>MongoDB</b>, on a mission
+                        Dedicated Full-Stack Developer specializing in <b>React,
+                            TypeScript, Express, Wordpress, PHP and MongoDB</b>, on a mission
                         to transform ideas into functional, user-centric web experiences,
                         while gaining valuable industry insights as a{" "}
                         <b>Junior Developer at Digital Web Solutions Pvt Ltd</b>.
@@ -98,8 +97,6 @@ const Banner = () => {
                             Node JS
                         </a>
                     </div>
-                </div>
-                <div className="skills-sets-row2">
                     <div className="skill">
                         <a
                             href="https://developer.mozilla.org/en-US/docs/Glossary/REST"
@@ -129,7 +126,6 @@ const Banner = () => {
                             Bootstrap
                         </a>
                     </div>
-
                 </div>
             </Container>
         </div>
