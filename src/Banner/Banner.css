@@ -5,7 +5,7 @@
 .banner-body {
     display: grid;
     place-items: center;
-    align-items: center;
+    text-align: center;
 }
 
 .banner-body h1 {
@@ -20,7 +20,7 @@
 }
 
 .banner-body p {
-    padding: 0 10rem;
+    padding: 0 4rem;
     text-align: center;
 }
 
@@ -29,6 +29,7 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 0 4rem;
 }
 
 .skill {
@@ -86,6 +87,12 @@
     margin-top: 2rem;
     font-size: 30px;
     font-weight: 600;
+}
+
+@media screen and (max-width:952px) {
+    .skill {
+        margin: 0.5rem;
+    }
 }
 
 @media (max-width: 768px) {
