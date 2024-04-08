@@ -41,7 +41,7 @@
     opacity: 1;
 }
 
-.sidebar li svg.css-i4bv87-MuiSvgIcon-root {
+.sidebar li svg {
     font-size: 55px;
     transition: all 0.1s ease;
 }
