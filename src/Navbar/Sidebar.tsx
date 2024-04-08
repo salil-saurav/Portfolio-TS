@@ -2,7 +2,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import ArticleIcon from "@mui/icons-material/Article";
 import CallIcon from "@mui/icons-material/Call";
-import Resume from "../assets/resume.pdf";
+import Resume from "../assets/Resume.pdf";
 import "./Sidebar.css";
 const Sidebar = () => {
     return (

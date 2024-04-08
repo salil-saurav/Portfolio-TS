@@ -10,6 +10,7 @@ import wordpreessLogo from "../assets/Logo/wordpress.webp";
 import PhpLogo from "../assets/Logo/php.svg";
 import BootstrapLogo from "../assets/Logo/Bootstrap.svg";
 import TypeScriptLogo from "../assets/Logo/TS.svg";
+import TailwindLogo from "../assets/Logo/tailwind.svg";
 
 const Banner = () => {
     useEffect(() => {
@@ -124,6 +125,16 @@ const Banner = () => {
                                 alt="Bootstrap Logo"
                             />
                             Bootstrap
+                        </a>
+                    </div>
+                    <div className="skill">
+                        <a href="https://tailwindcss.com/" target="_blank">
+                            <img
+                                className="language-logo tailwind"
+                                src={TailwindLogo}
+                                alt="Tailwind Logo"
+                            />
+                            Tailwind CSS
                         </a>
                     </div>
                 </div>

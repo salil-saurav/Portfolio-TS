@@ -78,7 +78,8 @@
 
 .skill:hover .rest-logo,
 .skill:hover .wordpress,
-.skill:hover .JS {
+.skill:hover .JS,
+.skill:hover .tailwind {
     filter: invert(1);
 }
 

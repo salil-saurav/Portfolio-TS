@@ -3,7 +3,8 @@ import Tilt from "react-parallax-tilt";
 import campImage from "../assets/images/campsite.png";
 import cardImageTwo from "../assets/images/PerfectDry.png";
 import cardImageThree from "../assets/images/thecrew.png";
-import cardFourImage from "../assets/images/livesearch.png";
+// import cardFourImage from "../assets/images/livesearch.png";
+import dibalichImage from "../assets/images/dibalich.png";
 
 const Cards: React.FC = () => {
     return (
@@ -52,16 +53,16 @@ const Cards: React.FC = () => {
                             {" "}
                             <a
                                 className="project-link"
-                                href="https://deluxe-froyo-e9d9c8.netlify.app"
+                                href="https://dibalich.co.nz/"
                                 target="_blank"
                             >
                                 <img
                                     className="cardImage"
-                                    src={cardFourImage}
+                                    src={dibalichImage}
                                     alt="Card Four Image"
                                 />
                             </a>
-                            <span className="project-name">Live Search</span>
+                            <span className="project-name">Dibalich</span>
                         </div>
                     </Tilt>
                 </div>
